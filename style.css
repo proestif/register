@@ -1,0 +1,157 @@
+body{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  background-color:#002233;}
+#vid{
+  width:90%;
+  height: 90%;
+  display: none; 
+}
+
+@media screen and (max-width: 990px) {
+  body{background-color: #002233;}
+  #vid{
+    width: 40%;
+    height: 40%;
+    display: none; 
+  }
+  form{
+  margin-left: -20%;
+
+  }
+input{
+  background-color: #0066FF;
+}
+#sec{
+  position: relative;
+  display: none;
+  /* flex-wrap: wrap; */
+    width: 10%;
+  padding: 10%;
+  height: 80%;
+  border: none;
+  border-radius: 10px;
+  background-image: url("sec.png")
+  ;background-repeat: no-repeat;
+  background-size: cover;
+  }
+}
+
+.one{
+  width:150px;
+  height: 70px;
+  text-align: center;
+ font-size: 40px;
+
+ 
+ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#o{
+  border: none;
+  background:transparent;
+  border-radius: 10px;
+  color: rgb(234, 211, 183);
+  text-align: center;
+ 
+}
+.buy{
+   display: flex;
+  justify-content:center;
+  align-items: center;
+}
+.wh{ display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+#box {
+  background-image:url("doe.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+width: 80%;
+padding-top: 2%;
+border-radius: 10px;
+
+border:none;
+}
+.center{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#sec{
+  display: none;
+  background-image:url("doe.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+width: 80%;
+padding-top: 2%;
+border-radius: 10px;
+
+}
+form{
+ padding: 10px 35%;
+}
+.center{
+  padding: 0px 10px 0px 10px;
+}
+
+#log{
+  text-align: center;
+  width: 30%;
+  margin-left:250px ;
+}
+label{
+  color: #001b29;
+  font-size: 1.5em;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+input{
+
+  background-color: 0066FF;
+
+  font-size: 20px;
+/* text-align:center; */
+border-bottom:2px solid black ;
+border-left:none;
+border-right:none;
+border-top:none;
+}
+button{
+  font-size: 2em;
+  margin: 40px 200px;
+  border-radius: 10px;
+
+}
+#em::after{
+content: "*";
+color: rgb(158, 3, 3);
+}
+#pa::after{
+  content: "*";
+  color: rgb(158, 3, 3);
+  }
+  #email1{
+  margin-left: 10%;
+  }
+  #password1{
+    margin-left: 10%;
+
+  }
+  button{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px
+;
+color:white;
+    border:none;
+    background: linear-gradient(  45deg, #0066FF, #002233 );
+  }
+  button:hover{
+    transition-duration: 1s;
+    transition-property:all;
+/* font-size: 2.1em; */
+    transition-timing-function: ease;
+box-shadow: 10px 10px 10px #0066FF;
+  }
